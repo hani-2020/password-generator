@@ -57,6 +57,10 @@ body{
     left: 15.25vw;
     width: 1.6vw;
     height: 1.75vh;
+    font-size: 0.9vw;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 #pass-gen{
     display: flex;
