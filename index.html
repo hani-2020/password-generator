@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <header>
+            <span id="head-pta">Generate a</span>
+            <br>
+            <span id="head-ptb">random password</span>
+        </header>
+    </head>
+    <body>
+        <p id="tagline">Never use an insecure password again</p>
+        <button id="pass-gen" onclick="start()">
+            <img id="ligtning" src="Lightning bolt.png">
+            <span id="tet">
+                Generate passwords
+            </span>
+        </button>
+        <div id="options">
+        <span id="noc">Number of Characters</span>
+        <input type="number" min="5" max="15" id="number">
+        </p>
+        </div>
+        <br>
+        <div id="hline"><hr></div>
+        <div id="reca">
+            <span id="pass1"></span>
+            <button id="pta" onclick="ctca()">Copy</button>
+        </div>
+        <div id="recb">
+            <span id="pass2"></span>
+            <button id="ptb" onclick="ctcb()">Copy</button>
+        </div>
+        <div id="recc">
+            <span id="pass3"></span>
+            <button id="ptc" onclick="ctcc()">Copy</button>
+        </div>
+        <div id="recd">
+            <span id="pass4"></span>
+            <button id="ptd" onclick="ctcd()">Copy</button>
+        </div>
+        <script src="back.js"></script>
+    </body>
+</html>
